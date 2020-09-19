@@ -23,11 +23,18 @@
 // let str3 = arr.sort().join('');
 // console.log(str3); 
 
-const arr2 = [2, 42, 54, 278, 101, 23, 1, 22];
-arr2.sort(sortBy);
-console.log(arr2);
+// const arr2 = [2, 42, 54, 278, 101, 23, 1, 22];
+// arr2.sort(sortBy);
+// console.log(arr2);
 
 
-function sortBy(a, b) {
-   return a - b;
-}
+// function sortBy(a, b) {
+//    return a - b;
+// }
+
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8];
+let arr2 = arr1;
+
+arr2.pop();
+
+console.log(arr1, arr2);
